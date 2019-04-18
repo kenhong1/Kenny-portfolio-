@@ -2,7 +2,7 @@ import React from "react";
 import {Form, Col, Button, FormGroup, ControlLabel, FormControl} from "react-bootstrap"; 
 // import FormControl from 'react-bootstrap/lib/FormControl';
 
-const Contact =(props) => {
+const contact =(props) => {
    return(
       <div className="Contact">
          <h1 className="contactHeader"> Contact Me! </h1>
@@ -11,4 +11,4 @@ const Contact =(props) => {
    )
 }
 
-export default Contact; 
+export default contact; 

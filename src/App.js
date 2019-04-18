@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Contact from "./Pages/Contact";
+import contact from "./Pages/contact";
 import Footer from "./Components/Footer"
 import Home from "./Pages/Home"; 
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -69,7 +69,7 @@ handleClick(e){
                   </Nav.Link>
               </Navbar>
                 <Route exact path="/" component={Home}/>
-                <Route exact path="/contact" render={() => <Contact Contact={Contact} />} /> 
+                <Route exact path="/contact" render={() => <contact contact={contact} />} /> 
             </div>
           </BrowserRouter>
         );
