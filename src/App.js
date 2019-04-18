@@ -64,12 +64,12 @@ handleClick(e){
                   <Nav.Link className="navBar" href="/">
                     <FontAwesomeIcon className="fontAwe" size="2x" icon="home" />
                   </Nav.Link>
-                  <Nav.Link className="navBar" href="/Contact"> 
+                  <Nav.Link className="navBar" href="/contact"> 
                     <FontAwesomeIcon className="fontAwe" size="2x" icon="envelope" />                   
                   </Nav.Link>
               </Navbar>
                 <Route exact path="/" component={Home}/>
-                <Route exact path="/Contact" render={() => <Contact Contact={Contact} />} /> 
+                <Route exact path="/contact" render={() => <Contact Contact={Contact} />} /> 
             </div>
           </BrowserRouter>
         );
