@@ -11,10 +11,6 @@ import LoadingPage from "./Pages/LoadingPage";
 import { Document, Page } from 'react-pdf/dist/entry.webpack';
 import { Navbar, Nav } from 'react-bootstrap';
 import './App.css';
-import Parallax from 'react-springy-parallax'
-
-
-// import { Link, animateScroll as scroll } from "react-scroll"; 
 
 library.add(faHome, faEnvelope)
 
@@ -61,10 +57,10 @@ handleClick(e){
         <BrowserRouter>
             <div className="App" onClick={ (e) => this.handleClick(e) } >
               <Navbar className="navBar" bg="" variant="">
-                  <Nav.Link className="navBar" href="/">
+                  <Nav.Link className="navBar"  href="/">
                     <FontAwesomeIcon className="fontAwe" size="2x" icon="home" />
                   </Nav.Link>
-                  <Nav.Link className="navBar" href="/contact"> 
+                  <Nav.Link className="navBar"  href="/contact"> 
                     <FontAwesomeIcon className="fontAwe" size="2x" icon="envelope" />                   
                   </Nav.Link>
               </Navbar>
