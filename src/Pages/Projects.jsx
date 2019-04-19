@@ -1,5 +1,6 @@
 import React from "react"
 import mk from "../Image/mkx.png"
+import stackd from "../Image/stackd.png"
 import xposure from "../Image/xposure.png"
 import comple from "../Image/login1.png"
 import {Container, Row, Col, Card} from "react-bootstrap"
@@ -70,8 +71,21 @@ const Projects = (props) =>{
                      </Card>
                </Col>
                <Col lg={true}>
-                  <h3> Project 4</h3>
-                  <p> shit goes here </p>
+               <Card className="compleCard" style={{ width: '18rem' }}>
+                     <Card.Img className="compleCard" variant="top" src={stackd} />
+                        <Card.Body>
+                           <Card.Title>Mortal Kombat X Clicker Edition</Card.Title>
+                           <p> Test Your Might</p>
+                           <Card.Text>
+                           Do you have what it takes to protect earth realm from the invaders? Jump into to this hot seat clicker game where you and another person
+                           go head to head in Mortal Kombat X Clicker Edition!
+                           </Card.Text>
+                           <Row>
+                           <Col  lg={true}><a href="https://github.com/kenhong1/Mortal-Kombat-X-RPG"> <FontAwesomeIcon size="2x" icon={['fab', "github"]} /></a></Col>
+                           <Col  lg={true}><a href="https://kenhong1.github.io/Mortal-Kombat-X-RPG/"> <FontAwesomeIcon size="2x" icon={['fa', "play"]} /></a></Col>
+                           </Row>
+                        </Card.Body>
+                     </Card>
                </Col>
             </Row>
       </Container>

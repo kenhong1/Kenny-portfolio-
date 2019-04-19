@@ -3,6 +3,7 @@ import Footer from "../Components/Footer"
 import mk from "../Image/mkx.jpg"
 import comple from "../Image/login1.png"
 import xposure from "../Image/xposure.png"
+import stackd from "../Image/stackd.png"
 import pictureOne from "../Image/kennethHong.jpg"
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -118,14 +119,15 @@ const Home = (props) => {
          </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className="item"> 
-         <img className="caroselOne" src={pictureOne} alt="Third slide"/>
+         <img className="caroselOne" src={stackd} alt="Third slide"/>
          <Carousel.Caption>
-               <h3>Project 4 bulls hit</h3>
-               <p> Project 4 goes here </p>
-               <p> Project 4 goes here </p>
+               <h3>Stackd</h3>
+               <p> Connecting You To The Latest Tech Trends</p>
+               <p> Grabbing data from 3 tech media sources. Stackd allows a user to stay up to date on the latest tech trends. Save, update, and share your favorite articles with your friends on Stackd.
+               </p>
             <Row>
-               <Col  lg={true}><a className="cIcons" href="https://google.com"> <FontAwesomeIcon size="2x" icon={['fab', "github"]} /></a></Col>
-               <Col  lg={true}><a className="cIcons" href="https://google.com"> <FontAwesomeIcon size="2x" icon={['fa', "play"]} /></a></Col>  
+               <Col  lg={true}><a className="cIcons" href="https://github.com/kenhong1/Stackd/tree/kennybranch"> <FontAwesomeIcon size="2x" icon={['fab', "github"]} /></a></Col>
+               <Col  lg={true}><a className="cIcons" href="https://stark-basin-81992.herokuapp.com/profile/5cb9f21b856c4a0017968c37"> <FontAwesomeIcon size="2x" icon={['fa', "play"]} /></a></Col>  
             </Row>
          </Carousel.Caption>
       </Carousel.Item>
