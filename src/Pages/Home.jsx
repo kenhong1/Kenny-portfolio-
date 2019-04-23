@@ -21,7 +21,7 @@ import {faGithub} from "@fortawesome/free-brands-svg-icons"
 import {faLinkedin} from "@fortawesome/free-brands-svg-icons"
 import { faServer } from '@fortawesome/free-solid-svg-icons';
 import { faDatabase} from '@fortawesome/free-solid-svg-icons';
-import ResumePDF from "../Image/KennethHongRES.WDI.pdf"
+import ResumePDF from "../Image/FinalResume.pdf"
 import {Jumbotron, Button, Card, Carousel, Col, Row, Container, Image} from "react-bootstrap";
 import Parallax from 'react-springy-parallax'
 
@@ -49,8 +49,8 @@ const Home = (props) => {
             <Container className="aboutMeContainer">
             <p> 
                Hello! 
-               My name is Kenneth Hong and I am a Full Stack Developer with a passion for Photography, Content Creation, and all things astheticly pleasing. If I am not coding or working on
-               freelance projects you can catch me exploring and taking pictures. Please feel free to look around, hope to connect soon! 
+               My name is Kenneth Hong and I am a Full Stack Developer with a passion for photography, content creation, and all things aesthetically pleasing. If I am not coding or working on
+               freelance projects you can catch me exploring and taking pictures. Please feel free to look around and stay!  
             </p>
             <a href = {ResumePDF} target = "_blank" onLoadSuccess={()=>console.log('success')}><Button variant="primary">Resume </Button></a>
             </Container>
