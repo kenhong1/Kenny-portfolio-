@@ -5,7 +5,8 @@ const Contact =(props) => {
    return(
       <div className="Contact">
          <h1 className="contactHeader"> Contact Me! </h1>
-         <h3> Email: Kensungihong@gmail.com </h3>
+            <p>See something that you like or just want to get in touch with me? Shoot me an email!</p>
+         <h3>  Kensungihong@gmail.com </h3>
       </div>
    )
 }

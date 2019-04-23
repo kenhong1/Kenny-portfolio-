@@ -15,6 +15,7 @@ import {faHtml5} from "@fortawesome/free-brands-svg-icons"
 import {faCss3} from "@fortawesome/free-brands-svg-icons"
 import {faBootstrap} from "@fortawesome/free-brands-svg-icons"
 import {faAdobe} from "@fortawesome/free-brands-svg-icons"
+import {faEtsy} from "@fortawesome/free-brands-svg-icons"
 import {faInstagram} from "@fortawesome/free-brands-svg-icons"
 import {faGithub} from "@fortawesome/free-brands-svg-icons"
 import {faLinkedin} from "@fortawesome/free-brands-svg-icons"
@@ -24,7 +25,7 @@ import ResumePDF from "../Image/KennethHongRES.WDI.pdf"
 import {Jumbotron, Button, Card, Carousel, Col, Row, Container, Image} from "react-bootstrap";
 import Parallax from 'react-springy-parallax'
 
-library.add(faJsSquare, faReact, faNode, faPython, faServer, faHtml5, faCss3, faBootstrap,faDatabase, faAdobe, faInstagram, faGithub, faLinkedin)
+library.add(faJsSquare, faReact, faNode, faPython, faServer, faHtml5, faCss3, faBootstrap,faDatabase, faAdobe, faInstagram, faGithub, faLinkedin, faEtsy)
 
 const Home = (props) => {
 
@@ -38,19 +39,25 @@ const Home = (props) => {
                <p className="headerP"> Full Stack Developer, Content Creator, and Innovator </p>
             </Container>
          </Jumbotron>
-<hr style={{ color: "black", height: 5}} />
    <div className="aboutMe">
       <Row>
          <Col className="colBox" lg={true}> 
             <h3> Who Am I? </h3>
             <Image className="selfie" src={pictureOne} thumbnail /> 
          </Col>
-         <Col className="colBox" lg={true}> 
-            <p> I am a Full-Stack D</p>
+         <Col>
+            <Container className="aboutMeContainer">
+            <p> 
+               Hello! 
+               My name is Kenneth Hong and I am a Full Stack Developer with a passion for Photography, Content Creation, and all things astheticly pleasing. If I am not coding or working on
+               freelance projects you can catch me exploring and taking pictures. Please feel free to look around, hope to connect soon! 
+            </p>
             <a href = {ResumePDF} target = "_blank" onLoadSuccess={()=>console.log('success')}><Button variant="primary">Resume </Button></a>
+            </Container>
          </Col>
       </Row>
    </div>
+
 <br /> 
    <div className="skillsBox">
    <h1> Skills & Abilities </h1>
@@ -62,6 +69,7 @@ const Home = (props) => {
             <Col  lg={true} ><FontAwesomeIcon className="fontAwe" size="4x" icon={['fab', 'react']} /> React</Col>
             <Col  lg={true} ><FontAwesomeIcon className="fontAwe" size="4x" icon={['fab', 'node']} /> Node.js</Col>
             <Col  lg={true} ><FontAwesomeIcon className="fontAwe" size="4x" icon={['fab', 'python']} />Python</Col>
+            <Col  lg={true} ><FontAwesomeIcon className="fontAwe" size="4x" icon={['fab', 'etsy']} />Express</Col>
             <Col  lg={true} ><FontAwesomeIcon className="fontAwe" size="4x" icon="server" /> Postgres</Col>
          </Row>
 <br /> 
