@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
-import Footer from "./Components/Footer"
 import Contact from "./Pages/Contact";
 import Home from "./Pages/Home"; 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import Projects from "./Pages/Projects"; 
 import {BrowserRouter, Route, Link} from "react-router-dom"
 import LoadingPage from "./Pages/LoadingPage"; 
-import { Document, Page } from 'react-pdf/dist/entry.webpack';
 import { Navbar, Nav } from 'react-bootstrap';
 import './App.css';
 
@@ -25,7 +22,7 @@ class App extends Component {
   } 
 
   componentDidMount() {
-    console.log("this is running")
+    // console.log("this is running")
     setTimeout(() => {
       this.setState({
         loading: false
