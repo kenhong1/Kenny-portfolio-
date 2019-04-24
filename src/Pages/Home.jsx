@@ -23,8 +23,7 @@ import {faLinkedin} from "@fortawesome/free-brands-svg-icons"
 import { faServer } from '@fortawesome/free-solid-svg-icons';
 import { faDatabase} from '@fortawesome/free-solid-svg-icons';
 import ResumePDF from "../Image/MyResume.pdf"
-import {Jumbotron, Button, Card, Carousel, Col, Row, Container, Image} from "react-bootstrap";
-import Parallax from 'react-springy-parallax'
+import {Jumbotron, Button, Carousel, Col, Row, Container, Image} from "react-bootstrap";
 
 library.add(faJsSquare, faReact, faNode, faPython, faServer, faHtml5, faCss3, faBootstrap,faDatabase, faAdobe, faInstagram, faGithub, faLinkedin, faEtsy)
 
