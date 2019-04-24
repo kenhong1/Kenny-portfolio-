@@ -22,7 +22,7 @@ import {faGithub} from "@fortawesome/free-brands-svg-icons"
 import {faLinkedin} from "@fortawesome/free-brands-svg-icons"
 import { faServer } from '@fortawesome/free-solid-svg-icons';
 import { faDatabase} from '@fortawesome/free-solid-svg-icons';
-import ResumePDF from "../Image/FinalResume.pdf"
+import ResumePDF from "../Image/MyResume.pdf"
 import {Jumbotron, Button, Card, Carousel, Col, Row, Container, Image} from "react-bootstrap";
 import Parallax from 'react-springy-parallax'
 
@@ -37,7 +37,7 @@ const Home = (props) => {
          <Jumbotron className="jumbotron" fluid >
                <h1 className="headerH1">Kenneth Hong</h1>
                <p className="headerP"> Full Stack Developer, Content Creator, and Innovator </p>
-         <video class="video-background" preload="true" muted="true" autoplay="true" loop="true">
+         <video className="video-background" preload={true} muted={true} autoPlay={true} loop={true}>
                <source src={video} type="video/mp4" />
             </video>
             <Container className="jumbotronBox">
