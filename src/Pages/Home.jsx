@@ -4,6 +4,7 @@ import mk from "../Image/mkx.jpg"
 import comple from "../Image/login1.png"
 import xposure from "../Image/xposure.png"
 import stackd from "../Image/stackd.png"
+import video from "../Image/asthetic.mp4"
 import pictureOne from "../Image/kennethHong.png"
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -34,9 +35,12 @@ const Home = (props) => {
 <div className="Home">
    <div className="cBox">
          <Jumbotron className="jumbotron" fluid >
-            <Container className="jumbotronBox">
                <h1 className="headerH1">Kenneth Hong</h1>
                <p className="headerP"> Full Stack Developer, Content Creator, and Innovator </p>
+         <video class="video-background" preload="true" muted="true" autoplay="true" loop="true">
+               <source src={video} type="video/mp4" />
+            </video>
+            <Container className="jumbotronBox">
             </Container>
          </Jumbotron>
    <div className="aboutMe">
