@@ -4,7 +4,7 @@ import mk from "../Image/mkx.jpg"
 import comple from "../Image/login1.png"
 import xposure from "../Image/xposure.png"
 import stackd from "../Image/stackd.png"
-import pictureOne from "../Image/kennethHong.jpg"
+import pictureOne from "../Image/kennethHong.png"
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faJsSquare} from "@fortawesome/free-brands-svg-icons"
@@ -42,8 +42,8 @@ const Home = (props) => {
    <div className="aboutMe">
       <Row>
          <Col className="colBox" lg={true}> 
-            <h3> Who Am I? </h3>
-            <Image className="selfie" src={pictureOne} thumbnail /> 
+            <h3> Who I Am</h3>
+            <Image className="selfie" src={pictureOne} roundedCircle /> 
          </Col>
          <Col>
             <Container className="aboutMeContainer">
