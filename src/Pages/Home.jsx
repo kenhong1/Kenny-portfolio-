@@ -32,6 +32,7 @@ const Home = (props) => {
 
    return(
 <div className="Home">
+      <div className="HomeInternal">
    <div className="cBox">
          <Jumbotron className="jumbotron" fluid >
                <h1 className="headerH1">Kenneth Hong</h1>
@@ -64,7 +65,7 @@ const Home = (props) => {
 <br /> 
    <div className="skillsBox">
    <h1> Skills & Abilities </h1>
-<svg width="100%" viewBox="0 0 10 1"><polygon stroke="none" strokeWidth="0" fill="#04b3e7" points="0,0.6 0,1 10,1 10,0"></polygon></svg> 
+<svg width="100%" viewBox="0 0 10 1"><polygon stroke="none" strokeWidth="0" fill="#2274A5" points="0,0.6 0,1 10,1 10,0"></polygon></svg> 
 <br />
       <div className="colorRow">
          <Row>
@@ -84,11 +85,11 @@ const Home = (props) => {
             <Col  lg={true} ><FontAwesomeIcon className="fontAwe" size="4x" icon={['fab', "adobe"]} /> Adobe Creative Cloud </Col>
          </Row>
       </div>
-<svg width="100%" viewBox="0 0 10 1"><polygon stroke="none" strokeWidth="0" fill="#04b3e7" points="0,0 10,0 10,0.3 0,1"></polygon></svg>
+<svg width="100%" viewBox="0 0 10 1"><polygon stroke="none" strokeWidth="0" fill="#2274A5" points="0,0 10,0 10,0.3 0,1"></polygon></svg>
    </div>
    <div className="portfolioStuff">
       <h1> Projects & Freelance </h1>
-   <svg width="100%" viewBox="0 0 10 1"><polygon stroke="none" stroke-width="0" fill="#f9d368" points="0,0.6 0,1 10,1 10,0"></polygon></svg>
+   <svg width="100%" viewBox="0 0 10 1"><polygon stroke="none" stroke-width="0" fill="#FFBF00" points="0,0.6 0,1 10,1 10,0"></polygon></svg>
          <div className="colorRow2">
    <Carousel className="mainCarousel">
       <Carousel.Item className="item">
@@ -145,7 +146,7 @@ const Home = (props) => {
    </Carousel>
 </div>      
       </div>
-<svg width="100%" viewBox="0 0 10 1"><polygon stroke="none" stroke-width="0" fill="#f9d368" points="0,0 10,0 10,0.3 0,1"></polygon></svg>
+<svg width="100%" viewBox="0 0 10 1"><polygon stroke="none" stroke-width="0" fill="#FFBF00" points="0,0 10,0 10,0.3 0,1"></polygon></svg>
    </div>
 <br /> 
    <div className="followMe">
@@ -162,6 +163,7 @@ const Home = (props) => {
 <br /> 
    <div className="footer">
       <Footer /> 
+   </div>
    </div>
 </div>
    )

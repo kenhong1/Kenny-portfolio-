@@ -2,11 +2,12 @@
   /* font-family: 'Abacsap', sans-serif; */
   font-family: 'Righteous', cursive;
   margin: 0 auto; 
-  /* background-color: #5a5050; */
+  /* color: #FF9F1C */
+  /* background-color: #011627; */
 }
 
 h1{
-  color:black;
+  color:#011627;
 }
 
 
@@ -16,12 +17,21 @@ h1{
 .home{
   font-family: 'Lato', sans-serif;
   font-size: 3em; 
-  color: white;
+  color: #011627;
 }
 
+.email{
+  color: #32936F;
+}
 .Home{
   text-align: center;
   margin: 0 auto;
+  /* color: #FDFFFC; */
+}
+
+.HomeInternal{
+  /* background-color: #5BC0EB; */
+  
 }
 .fullStackDev{
   font-size: 1.2em; 
@@ -32,15 +42,15 @@ h1{
 }
 
 .colorRow{
-  background-color: #04b3e7;  
+  background-color: #2274A5;  
   color: white;
 }
 
 .cIcons{
-  color: white;
+  color: #FFFFFF;
 }
 .connectIcons{
-  color: #04b3e7;
+  color: #2274A5;
 }
 .caroselOne{
 max-width: 70%;
@@ -69,6 +79,7 @@ max-height: 50%;
   z-index: -1;
   width: 80%;
   height: 70%;
+  background-color: #FDFFFC
 }
 
 /* .jumbotron{
@@ -82,7 +93,7 @@ max-height: 50%;
 } */
 
 .headerH1{
-  color:black;
+  color:#011627;
   font-size: 4em; 
   -webkit-animation: bounce-top 0.9s both;
   animation: bounce-top 0.9s both;
@@ -218,7 +229,7 @@ max-height: 50%;
 
 } */
 .colorRow2{
-  background-color: #f9d368;
+  background-color: #FFBF00;
   text-align: center;
   margin: 0 auto;
 }
