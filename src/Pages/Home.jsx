@@ -22,7 +22,7 @@ import {faGithub} from "@fortawesome/free-brands-svg-icons"
 import {faLinkedin} from "@fortawesome/free-brands-svg-icons"
 import { faServer } from '@fortawesome/free-solid-svg-icons';
 import { faDatabase, faPlay} from '@fortawesome/free-solid-svg-icons';
-import ResumePDF from "../Image/MyResume.pdf"
+import ResumePDF from "../Image/KenHongResume.pdf"
 import {Jumbotron, Button, Carousel, Col, Row, Container, Image} from "react-bootstrap";
 
 library.add(faJsSquare, faReact, faNode, faPython, faServer, faHtml5, faCss3, faBootstrap,faDatabase, faAdobe, faInstagram, faGithub, faLinkedin, faEtsy, faPlay)
