@@ -11,7 +11,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faJsSquare} from "@fortawesome/free-brands-svg-icons"
 import { faReact} from "@fortawesome/free-brands-svg-icons"
 import { faNode} from "@fortawesome/free-brands-svg-icons"
-import { faPython} from "@fortawesome/free-brands-svg-icons"
+import { faPython, } from "@fortawesome/free-brands-svg-icons"
 import {faHtml5} from "@fortawesome/free-brands-svg-icons"
 import {faCss3} from "@fortawesome/free-brands-svg-icons"
 import {faBootstrap} from "@fortawesome/free-brands-svg-icons"
@@ -21,11 +21,11 @@ import {faInstagram} from "@fortawesome/free-brands-svg-icons"
 import {faGithub} from "@fortawesome/free-brands-svg-icons"
 import {faLinkedin} from "@fortawesome/free-brands-svg-icons"
 import { faServer } from '@fortawesome/free-solid-svg-icons';
-import { faDatabase} from '@fortawesome/free-solid-svg-icons';
+import { faDatabase, faPlay} from '@fortawesome/free-solid-svg-icons';
 import ResumePDF from "../Image/MyResume.pdf"
 import {Jumbotron, Button, Carousel, Col, Row, Container, Image} from "react-bootstrap";
 
-library.add(faJsSquare, faReact, faNode, faPython, faServer, faHtml5, faCss3, faBootstrap,faDatabase, faAdobe, faInstagram, faGithub, faLinkedin, faEtsy)
+library.add(faJsSquare, faReact, faNode, faPython, faServer, faHtml5, faCss3, faBootstrap,faDatabase, faAdobe, faInstagram, faGithub, faLinkedin, faEtsy, faPlay)
 
 const Home = (props) => {
 
