@@ -8,20 +8,8 @@ import video from "../Image/asthetic.mp4"
 import pictureOne from "../Image/kennethHong.png"
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faJsSquare} from "@fortawesome/free-brands-svg-icons"
-import { faReact} from "@fortawesome/free-brands-svg-icons"
-import { faNode} from "@fortawesome/free-brands-svg-icons"
-import { faPython, } from "@fortawesome/free-brands-svg-icons"
-import {faHtml5} from "@fortawesome/free-brands-svg-icons"
-import {faCss3} from "@fortawesome/free-brands-svg-icons"
-import {faBootstrap} from "@fortawesome/free-brands-svg-icons"
-import {faAdobe} from "@fortawesome/free-brands-svg-icons"
-import {faEtsy} from "@fortawesome/free-brands-svg-icons"
-import {faInstagram} from "@fortawesome/free-brands-svg-icons"
-import {faGithub} from "@fortawesome/free-brands-svg-icons"
-import {faLinkedin} from "@fortawesome/free-brands-svg-icons"
-import { faServer } from '@fortawesome/free-solid-svg-icons';
-import { faDatabase, faPlay} from '@fortawesome/free-solid-svg-icons';
+import { faJsSquare, faReact, faNode, faPython, faHtml5, faCss3, faBootstrap, faAdobe, faEtsy, faInstagram, faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons"
+import { faDatabase, faPlay, faServer} from '@fortawesome/free-solid-svg-icons';
 import ResumePDF from "../Image/KenHongResume.pdf"
 import {Jumbotron, Button, Carousel, Col, Row, Container, Image} from "react-bootstrap";
 
