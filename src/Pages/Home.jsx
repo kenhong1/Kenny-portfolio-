@@ -4,14 +4,14 @@ import mk from "../Image/mkx.jpg"
 import comple from "../Image/login1.png"
 import xposure from "../Image/xposure.png"
 import stackd from "../Image/stackd.png"
-import video from "../Image/asthetic.mp4"
+import video from "../Image/video.mp4"
+import ResumePDF from "../Image/KenHongResume.pdf"
 import pictureOne from "../Image/kennethHong.png"
+import {Jumbotron, Button, Carousel, Col, Row, Container, Image} from "react-bootstrap";
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faJsSquare, faReact, faNode, faPython, faHtml5, faCss3, faBootstrap, faAdobe, faEtsy, faInstagram, faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons"
 import { faDatabase, faPlay, faServer} from '@fortawesome/free-solid-svg-icons';
-import ResumePDF from "../Image/KenHongResume.pdf"
-import {Jumbotron, Button, Carousel, Col, Row, Container, Image} from "react-bootstrap";
 
 library.add(faJsSquare, faReact, faNode, faPython, faServer, faHtml5, faCss3, faBootstrap,faDatabase, faAdobe, faInstagram, faGithub, faLinkedin, faEtsy, faPlay)
 
@@ -25,6 +25,7 @@ const Home = (props) => {
          <Jumbotron className="jumbotron" fluid >
                <h1 className="headerH1">Kenneth Hong</h1>
                <p className="headerP"> Full Stack Developer, Content Creator, and Innovator </p>
+               {/* <Image className="homeGif" src={video} type="gif" />  */}
          <video className="video-background" preload={true} muted={true} autoPlay={true} loop={true}>
                <source src={video} type="video/mp4" />
             </video>
