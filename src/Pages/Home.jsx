@@ -42,7 +42,7 @@ const Home = (props) => {
          <Col>
             <Container className="aboutMeContainer">
             <h3> Who I Am</h3>
-            <p> 
+            <p className="aboutMeP"> 
                Hello! 
                My name is Kenneth Hong and I am a Full Stack Developer with a passion for photography, content creation, and all things aesthetically pleasing. If I am not coding or working on
                freelance projects you can catch me exploring and taking pictures. Please feel free to look around and stay!  

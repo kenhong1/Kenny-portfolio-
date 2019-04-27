@@ -89,6 +89,9 @@ max-height: 50%;
   height: 17%; 
 }
 
+.aboutMeP{
+  text-align: left; 
+}
 
 /* .jumbotron{
   background-image: url("../src/Image/stairs.jpg");
