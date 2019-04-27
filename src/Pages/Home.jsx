@@ -11,9 +11,9 @@ import {Jumbotron, Button, Carousel, Col, Row, Container, Image} from "react-boo
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faJsSquare, faReact, faNode, faPython, faHtml5, faCss3, faBootstrap, faAdobe, faEtsy, faInstagram, faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons"
-import { faDatabase, faPlay, faServer} from '@fortawesome/free-solid-svg-icons';
+import { faDatabase, faPlay, faServer, faArrowDown} from '@fortawesome/free-solid-svg-icons';
 
-library.add(faJsSquare, faReact, faNode, faPython, faServer, faHtml5, faCss3, faBootstrap,faDatabase, faAdobe, faInstagram, faGithub, faLinkedin, faEtsy, faPlay)
+library.add(faJsSquare, faReact, faNode, faPython, faServer, faHtml5, faCss3, faBootstrap,faDatabase, faAdobe, faInstagram, faGithub, faLinkedin, faEtsy, faPlay, faArrowDown)
 
 const Home = (props) => {
 
@@ -31,6 +31,8 @@ const Home = (props) => {
             </video>
             <Container className="jumbotronBox">
             </Container>
+            <br /> 
+            <Col  lg={true} ><FontAwesomeIcon className="fontAwe" size="4x" icon="arrow-down"/></Col>
          </Jumbotron>
    <div className="aboutMe">
       <Row>
