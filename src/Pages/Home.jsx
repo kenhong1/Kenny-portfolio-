@@ -4,7 +4,7 @@ import mk from "../Image/mkx.jpg"
 import comple from "../Image/login1.png"
 import xposure from "../Image/xposure.png"
 import stackd from "../Image/stackd.png"
-import video from "../Image/video.mp4"
+import video from "../Image/giffy.gif"
 import ResumePDF from "../Image/KenHongResume.pdf"
 import pictureOne from "../Image/kennethHong.png"
 import {Jumbotron, Button, Carousel, Col, Row, Container, Image} from "react-bootstrap";
@@ -25,10 +25,7 @@ const Home = (props) => {
          <Jumbotron className="jumbotron" fluid >
                <h1 className="headerH1">Kenneth Hong</h1>
                <p className="headerP"> Full Stack Developer, Content Creator, and Innovator </p>
-               {/* <Image className="homeGif" src={video} type="gif" />  */}
-         <video className="video-background" preload={true} muted={true} autoPlay={true} loop={true}>
-               <source src={video} type="video/mp4" />
-            </video>
+               <Image className="homeGif" src={video} type="gif" /> 
             <Container className="jumbotronBox">
             </Container>
             <br /> 
