@@ -21,13 +21,11 @@ const Home = (props) => {
    return(
 <div className="Home">
       <div className="HomeInternal">
-   <div className="cBox">
-         <Jumbotron className="jumbotron" fluid >
+         <div className="cBox">
+            <Jumbotron className="jumbotron" fluid >
                <h1 className="headerH1">Kenneth Hong</h1>
                <p className="headerP"> Full Stack Developer, Content Creator, and Innovator </p>
                <Image className="homeGif" src={video} type="gif" /> 
-            <Container className="jumbotronBox">
-            </Container>
             <br /> 
             <Col  lg={true} ><FontAwesomeIcon className="fontAwe" size="4x" icon="arrow-down"/></Col>
          </Jumbotron>
