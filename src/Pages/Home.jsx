@@ -139,7 +139,6 @@ const Home = (props) => {
       <h1> Connect With Me </h1>
 <br /> 
       <Row>
-         <Col  lg={true} > <a className="connectIcons" href="https://www.instagram.com/sungi_oppa/?hl=en"> <FontAwesomeIcon className="fontAwe"  size="4x" icon={['fab', "instagram"]} /></a>  </Col>
          <Col  lg={true} > <a className="connectIcons" href="https://github.com/kenhong1"> <FontAwesomeIcon className="fontAwe"  size="4x" icon={['fab', "github"]} /></a>  </Col>
          <Col  lg={true} > <a className="connectIcons" href="https://www.linkedin.com/in/kensungihong/"> <FontAwesomeIcon className="fontAwe"  size="4x" icon={['fab', "linkedin"]} /></a>  </Col>
       </Row>
