@@ -13,7 +13,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faJsSquare, faReact, faNode, faPython, faHtml5, faCss3, faBootstrap, faAdobe, faEtsy, faInstagram, faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons"
 import { faDatabase, faPlay, faServer, faArrowDown} from '@fortawesome/free-solid-svg-icons';
 // import {projectTwo} from 'https://github.com/kenhong1/Project-II-Exposure';
-import {BrowserRouter, Route, Link} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 library.add(faJsSquare, faReact, faNode, faPython, faServer, faHtml5, faCss3, faBootstrap,faDatabase, faAdobe, faInstagram, faGithub, faLinkedin, faEtsy, faPlay, faArrowDown)
 
@@ -88,8 +88,8 @@ const Home = (props) => {
             <p>Dive into the photo app that helps generates ideas on locations, patterns, and moods. Powered by the 
                Unsplash API, Xposure delivers high quality photos by the click of a button. </p>
             <Row>
-            <Col  lg={true}><Link to="https://github.com/kenhong1/Project-II-Exposure" className="cIcons"> <FontAwesomeIcon size="2x" icon={['fab', "github"]} /></Link></Col>
-            <Col  lg={true}><Link to="https://whispering-plateau-38685.herokuapp.com"className="cIcons"> <FontAwesomeIcon size="2x" icon={['fa', "play"]} /></Link></Col>
+            <Col  lg={true}><a href="https://github.com/kenhong1/Project-II-Exposure" className="cIcons" target="_blank"> <FontAwesomeIcon size="2x" icon={['fab', "github"]} /></a></Col>
+            <Col  lg={true}><a href="https://whispering-plateau-38685.herokuapp.com"className="cIcons" target="_blank"> <FontAwesomeIcon size="2x" icon={['fa', "play"]} /></a></Col>
             </Row>
          </Carousel.Caption>
    </Carousel.Item>
@@ -100,8 +100,8 @@ const Home = (props) => {
                <p>From picking out what goes with that top to repainting your living room. Compliemont supplies you with the best 
                   complimentory colors with one click of the button! </p>
                <Row>
-                  <Col  lg={true}><a className="cIcons" href="https://github.com/orjames/mernProject"> <FontAwesomeIcon size="2x" icon={['fab', "github"]} /></a></Col>
-                  <Col  lg={true}><a className="cIcons" href="https://orj-mern-project.herokuapp.com/"> <FontAwesomeIcon size="2x" icon={['fa', "play"]} /></a></Col>
+                  <Col  lg={true}><a className="cIcons" href="https://github.com/orjames/mernProject" target="_blank"> <FontAwesomeIcon size="2x" icon={['fab', "github"]} /></a></Col>
+                  <Col  lg={true}><a className="cIcons" href="https://orj-mern-project.herokuapp.com/" target="_blank"> <FontAwesomeIcon size="2x" icon={['fa', "play"]} /></a></Col>
                </Row>
          </Carousel.Caption>
       </Carousel.Item >
@@ -113,8 +113,8 @@ const Home = (props) => {
                <p>Do you have what it takes to protect Earth Realm from the unknown forces? 
                   Jump into the hotseat MKX clicker edition and test your might!</p>
             <Row>
-               <Col  lg={true}><a className="cIcons" href="https://github.com/kenhong1/Mortal-Kombat-X-RPG"> <FontAwesomeIcon size="2x" icon={['fab', "github"]} /></a></Col>
-               <Col  lg={true}><a className="cIcons" href="https://kenhong1.github.io/Mortal-Kombat-X-RPG/"> <FontAwesomeIcon size="2x" icon={['fa', "play"]} /></a></Col>  
+               <Col  lg={true}><a className="cIcons" href="https://github.com/kenhong1/Mortal-Kombat-X-RPG" target="_blank"> <FontAwesomeIcon size="2x" icon={['fab', "github"]} /></a></Col>
+               <Col  lg={true}><a className="cIcons" href="https://kenhong1.github.io/Mortal-Kombat-X-RPG/" target="_blank"> <FontAwesomeIcon size="2x" icon={['fa', "play"]} /></a></Col>  
             </Row>
          </Carousel.Caption>
       </Carousel.Item>
@@ -126,8 +126,8 @@ const Home = (props) => {
                <p> Grabbing data from 3 tech media sources. Stackd allows a user to stay up to date on the latest tech trends. Save, update, and share your favorite articles with your friends on Stackd.
                </p>
             <Row>
-               <Col  lg={true}><a className="cIcons" href="https://github.com/kenhong1/Stackd/tree/kennybranch"> <FontAwesomeIcon size="2x" icon={['fab', "github"]} /></a></Col>
-               <Col  lg={true}><a className="cIcons" href="https://stark-basin-81992.herokuapp.com/profile/5cb9f21b856c4a0017968c37"> <FontAwesomeIcon size="2x" icon={['fa', "play"]} /></a></Col>  
+               <Col  lg={true}><a className="cIcons" href="https://github.com/kenhong1/Stackd/tree/kennybranch" target="_blank"> <FontAwesomeIcon size="2x" icon={['fab', "github"]} /></a></Col>
+               <Col  lg={true}><a className="cIcons" href="https://stark-basin-81992.herokuapp.com/profile/5cb9f21b856c4a0017968c37" target="_blank"> <FontAwesomeIcon size="2x" icon={['fa', "play"]} /></a></Col>  
             </Row>
          </Carousel.Caption>
       </Carousel.Item>
@@ -141,8 +141,8 @@ const Home = (props) => {
       <h1> Connect With Me </h1>
 <br /> 
       <Row>
-         <Col  lg={true} > <a className="connectIcons" href="https://github.com/kenhong1"> <FontAwesomeIcon className="fontAwe"  size="4x" icon={['fab', "github"]} /></a>  </Col>
-         <Col  lg={true} > <a className="connectIcons" href="https://www.linkedin.com/in/kensungihong/"> <FontAwesomeIcon className="fontAwe"  size="4x" icon={['fab', "linkedin"]} /></a>  </Col>
+         <Col  lg={true} > <a className="connectIcons" href="https://github.com/kenhong1" target="_blank"> <FontAwesomeIcon className="fontAwe"  size="4x" icon={['fab', "github"]} /></a>  </Col>
+         <Col  lg={true} > <a className="connectIcons" href="https://www.linkedin.com/in/kensungihong/" target="_blank"> <FontAwesomeIcon className="fontAwe"  size="4x" icon={['fab', "linkedin"]} /></a>  </Col>
       </Row>
 <br /> 
    </div>
