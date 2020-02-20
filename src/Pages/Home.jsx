@@ -12,6 +12,8 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faJsSquare, faReact, faNode, faPython, faHtml5, faCss3, faBootstrap, faAdobe, faEtsy, faInstagram, faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons"
 import { faDatabase, faPlay, faServer, faArrowDown} from '@fortawesome/free-solid-svg-icons';
+// import {projectTwo} from 'https://github.com/kenhong1/Project-II-Exposure';
+import {BrowserRouter, Route, Link} from "react-router-dom";
 
 library.add(faJsSquare, faReact, faNode, faPython, faServer, faHtml5, faCss3, faBootstrap,faDatabase, faAdobe, faInstagram, faGithub, faLinkedin, faEtsy, faPlay, faArrowDown)
 
@@ -86,7 +88,7 @@ const Home = (props) => {
             <p>Dive into the photo app that helps generates ideas on locations, patterns, and moods. Powered by the 
                Unsplash API, Xposure delivers high quality photos by the click of a button. </p>
             <Row>
-            <Col  lg={true}><a className="cIcons" href="https://github.com/kenhong1/Project-II-Exposure"> <FontAwesomeIcon size="2x" icon={['fab', "github"]} /></a></Col>
+            <Col  lg={true}><Link to="/https://github.com/kenhong1/Project-II-Exposure/" className="cIcons"> <FontAwesomeIcon size="2x" icon={['fab', "github"]} /></Link></Col>
             <Col  lg={true}><a className="cIcons" href="https://whispering-plateau-38685.herokuapp.com/"> <FontAwesomeIcon size="2x" icon={['fa', "play"]} /></a></Col>
             </Row>
          </Carousel.Caption>
