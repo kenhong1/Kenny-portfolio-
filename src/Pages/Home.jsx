@@ -88,8 +88,8 @@ const Home = (props) => {
             <p>Dive into the photo app that helps generates ideas on locations, patterns, and moods. Powered by the 
                Unsplash API, Xposure delivers high quality photos by the click of a button. </p>
             <Row>
-            <Col  lg={true}><Link to="/https://github.com/kenhong1/Project-II-Exposure/" className="cIcons"> <FontAwesomeIcon size="2x" icon={['fab', "github"]} /></Link></Col>
-            <Col  lg={true}><Link to="/https://whispering-plateau-38685.herokuapp.com/"className="cIcons"> <FontAwesomeIcon size="2x" icon={['fa', "play"]} /></Link></Col>
+            <Col  lg={true}><Link to="https://github.com/kenhong1/Project-II-Exposure" className="cIcons"> <FontAwesomeIcon size="2x" icon={['fab', "github"]} /></Link></Col>
+            <Col  lg={true}><Link to="https://whispering-plateau-38685.herokuapp.com"className="cIcons"> <FontAwesomeIcon size="2x" icon={['fa', "play"]} /></Link></Col>
             </Row>
          </Carousel.Caption>
    </Carousel.Item>
