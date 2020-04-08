@@ -7,7 +7,7 @@ import comple from "../Image/login1.png"
 import xposure from "../Image/xposure.png"
 import stackd from "../Image/stackd.png"
 import video from "../Image/giffy.gif"
-import sdr from "../Image/sdr-2.jpg" 
+import sdr from "../Image/sdr.png" 
 import ResumePDF from "../Image/KenHongResume.pdf"
 import pictureOne from "../Image/kennethHong.png"
 import {Jumbotron, Button, Carousel, Col, Row, Container, Image} from "react-bootstrap";
@@ -136,6 +136,8 @@ const Home = (props) => {
             <Carousel.Item className="item"> 
                <img className="caroselOne" src={sdr} alt="Third slide"/>
                <Carousel.Caption>
+                  <h3> SDR Garage</h3>
+                  <p>Bring you favorite imports from oversees to your driveway</p>
                <Row>
                   <Col  lg={true}><a className="cIcons" href="https://sdrgarage.com/" target="_blank"> <FontAwesomeIcon size="2x" color="blue" icon={['fa', "play"]} /></a></Col>  
                </Row>
