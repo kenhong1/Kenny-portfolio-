@@ -150,7 +150,6 @@ const Home = (props) => {
 <svg width="100%" viewBox="0 0 10 1"><polygon stroke="none" stroke-width="0" fill="#FFBF00" points="0,0 10,0 10,0.3 0,1"></polygon></svg>
 <br /> 
    <div className="followMe">
-      <h1> Connect With Me </h1>
 <br /> 
       <Row>
          <Col  lg={true} > <a className="connectIcons" href="https://github.com/kenhong1" target="_blank"> <FontAwesomeIcon className="fontAwe"  size="4x" icon={['fab', "github"]} /></a>  </Col>
