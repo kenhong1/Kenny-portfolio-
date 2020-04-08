@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Contact from "./Pages/Contact";
+import Projects from "./Pages/Projects"; 
+// import freelance from "./Pages/freelance";
 import Home from "./Pages/Home"; 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -41,14 +43,6 @@ handleClick(e){
 
 
   render() {
-    if (this.state.loading === true){
-    return(
-      <>
-        <LoadingPage /> 
-        <h2 className="loading"> Loading... </h2>
-      </> 
-    )
-    } else {
       return (
 
         <BrowserRouter>
@@ -63,11 +57,12 @@ handleClick(e){
               </Navbar>
                 <Route exact path="/" component={Home}/>
                 <Route exact path="/contact" component={Contact}/> 
+                <Route exact path="/projects" component={Projects} /> 
+                {/* <Route exact path="/freelance" component={freelance} />  */}
             </div>
           </BrowserRouter>
         );
       }
     }
-}
 
 export default App;

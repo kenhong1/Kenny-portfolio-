@@ -15,9 +15,9 @@ library.add(faGithub,faPlay)
 const Projects = (props) =>{
    return(
       <div className="projects">
-         <h1 className="headerProjects"> Full Stack Projects & Freelance Work  </h1>
+      <h1 className="headerProjects"> Full Stack Projects & Freelance Work  </h1>
          <br /> 
-         <Container>
+         <Container className="projectBox"> 
             <Row>
                <Col lg={true}>
                <Card style={{ width: '18rem' }}>
@@ -30,8 +30,8 @@ const Projects = (props) =>{
                               Unsplash API, Xposure delivers high quality photos by the click of a button.                               
                            </Card.Text>
                            <Row>
-                           <Col  lg={true}><a href="https://github.com/kenhong1/Project-II-Exposure"> <FontAwesomeIcon size="2x" icon={['fab', "github"]} /></a></Col>
-                           <Col  lg={true}><a href="https://whispering-plateau-38685.herokuapp.com/"> <FontAwesomeIcon size="2x" icon={['fa', "play"]} /></a></Col>
+                           <Col  lg={true}><a href="https://github.com/kenhong1/Project-II-Exposure" target="_blank"> <FontAwesomeIcon size="2x" icon={['fab', "github"]} /></a></Col>
+                           <Col  lg={true}><a href="https://whispering-plateau-38685.herokuapp.com/" target="_blank"> <FontAwesomeIcon size="2x" icon={['fa', "play"]} /></a></Col>
                            </Row>
                         </Card.Body>
                      </Card>
@@ -47,8 +47,8 @@ const Projects = (props) =>{
                               accesses the cloudinary API to pick out what colors are in your photo as well as what colors go well with it. 
                            </Card.Text>
                            <Row>
-                           <Col  lg={true}><a href="https://github.com/orjames/mernProject"> <FontAwesomeIcon size="2x" icon={['fab', "github"]} /></a></Col>
-                           <Col  lg={true}><a href="https://orj-mern-project.herokuapp.com/"> <FontAwesomeIcon size="2x" icon={['fa', "play"]} /></a></Col>
+                           <Col  lg={true}><a href="https://github.com/orjames/mernProject" target="_blank"> <FontAwesomeIcon size="2x" icon={['fab', "github"]} /></a></Col>
+                           <Col  lg={true}><a href="https://orj-mern-project.herokuapp.com/" target="_blank"> <FontAwesomeIcon size="2x" icon={['fa', "play"]} /></a></Col>
                            </Row>
                         </Card.Body>
                      </Card>
@@ -64,8 +64,8 @@ const Projects = (props) =>{
                            go head to head in Mortal Kombat X Clicker Edition!
                            </Card.Text>
                            <Row>
-                           <Col  lg={true}><a href="https://github.com/kenhong1/Mortal-Kombat-X-RPG"> <FontAwesomeIcon size="2x" icon={['fab', "github"]} /></a></Col>
-                           <Col  lg={true}><a href="https://kenhong1.github.io/Mortal-Kombat-X-RPG/"> <FontAwesomeIcon size="2x" icon={['fa', "play"]} /></a></Col>
+                           <Col  lg={true}><a href="https://github.com/kenhong1/Mortal-Kombat-X-RPG" target="_blank"> <FontAwesomeIcon size="2x" icon={['fab', "github"]} /></a></Col>
+                           <Col  lg={true}><a href="https://kenhong1.github.io/Mortal-Kombat-X-RPG/" target="_blank"> <FontAwesomeIcon size="2x" icon={['fa', "play"]} /></a></Col>
                            </Row>
                         </Card.Body>
                      </Card>
@@ -74,15 +74,16 @@ const Projects = (props) =>{
                <Card className="compleCard" style={{ width: '18rem' }}>
                      <Card.Img className="compleCard" variant="top" src={stackd} />
                         <Card.Body>
-                           <Card.Title>Mortal Kombat X Clicker Edition</Card.Title>
-                           <p> Test Your Might</p>
+                           <Card.Title>Stackd</Card.Title>
+                              <p> Your New Tech Source</p>
                            <Card.Text>
-                           Do you have what it takes to protect earth realm from the invaders? Jump into to this hot seat clicker game where you and another person
-                           go head to head in Mortal Kombat X Clicker Edition!
+                              <p> 
+                                 Grabbing data from 3 tech media sources. Stackd allows a user to stay up to date on the latest tech trends. Save, update, and share your favorite articles with your friends on Stackd.
+                              </p>
                            </Card.Text>
                            <Row>
-                           <Col  lg={true}><a href="https://github.com/kenhong1/Mortal-Kombat-X-RPG"> <FontAwesomeIcon size="2x" icon={['fab', "github"]} /></a></Col>
-                           <Col  lg={true}><a href="https://kenhong1.github.io/Mortal-Kombat-X-RPG/"> <FontAwesomeIcon size="2x" icon={['fa', "play"]} /></a></Col>
+                           <Col  lg={true}><a href="https://github.com/kenhong1/Stackd/tree/kennybranch" target="_blank"> <FontAwesomeIcon size="2x" icon={['fab', "github"]} /></a></Col>
+                           <Col  lg={true}><a href="https://stark-basin-81992.herokuapp.com/profile/5cb9f21b856c4a0017968c37" target="_blank">  <FontAwesomeIcon size="2x" icon={['fa', "play"]} /></a></Col>
                            </Row>
                         </Card.Body>
                      </Card>

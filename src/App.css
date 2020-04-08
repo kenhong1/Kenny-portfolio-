@@ -18,15 +18,18 @@ h1{
   font-family: 'Lato', sans-serif;
   font-size: 3em; 
   color: #011627;
+  /* padding: 2px solid green;  */
 }
 
 .email{
   color: #32936F;
 }
+
 .Home{
   text-align: center;
   margin: 0 auto;
   /* color: #FDFFFC; */
+  /* border: 3px solid green;  */
 }
 
 .HomeInternal{
@@ -58,7 +61,7 @@ max-height: 50%;
 }
 
 .jumbotron {
-  /* border: 2px solid purple; */
+  border: 4px solid purple;
   background-color: white;
   color: black;
   text-align: center;
@@ -67,7 +70,7 @@ max-height: 50%;
   z-index: -2;
   height: 100%;
   width: 100%; 
-  padding: 7%; 
+  padding: 9%; 
 }
 
 
@@ -84,16 +87,6 @@ max-height: 50%;
   text-align: left; 
 }
 
-/* .jumbotron{
-  background-image: url("../src/Image/stairs.jpg");
-  background-size:cover; 
-  background-repeat: no-repeat,;
-  background-position: center;
-  width: 100vw; 
-  height: 50vh;
-  
-  text-align: right;
-} */
 
 .headerH1{
   color:#011627;
@@ -240,11 +233,6 @@ max-height: 50%;
 .navBar{
   color: black;
 }
-/* .portfolioStuff{
-  text-align: center;
-  margin: 0 auto;
-} */
-
 
 .aboutMe{
   padding-top: 3%; 
@@ -258,10 +246,8 @@ padding-top: 5%;
 font-size: 1.3em; 
 }
 
-.skillsBox{
-  /* -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both; */
-}
+
+
 @-webkit-keyframes text-focus-in {
   0% {
     -webkit-filter: blur(12px);
@@ -275,9 +261,6 @@ font-size: 1.3em;
   }
 }
 
-.followMe{
-
-}
 
 .react-pdf_Page_svg {
   margin: 0 auto;
@@ -307,8 +290,18 @@ font-size: 1.3em;
 
 }
 
-.projects, .headerProjects{
+.headerProjects{
+  text-align: center; 
+}
+
+
+.projects{
   text-align: center;
+}
+
+.projectBox{
+  padding: 10%
+  
 }
 
 .aboutMeHeader{
