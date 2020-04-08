@@ -32,6 +32,11 @@ h1{
   /* border: 3px solid green;  */
 }
 
+.skillText{
+  padding: 1%; 
+  color: white; 
+}
+
 .HomeInternal{
   /* background-color: #5BC0EB; */
   
