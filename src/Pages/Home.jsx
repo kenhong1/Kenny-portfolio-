@@ -7,7 +7,7 @@ import comple from "../Image/login1.png"
 import xposure from "../Image/xposure.png"
 import stackd from "../Image/stackd.png"
 import video from "../Image/giffy.gif"
-import sdr from "../Image/SDR.jpg" 
+import sdr from "../Image/sdr-2.jpg" 
 import ResumePDF from "../Image/KenHongResume.pdf"
 import pictureOne from "../Image/kennethHong.png"
 import {Jumbotron, Button, Carousel, Col, Row, Container, Image} from "react-bootstrap";
